@@ -8,7 +8,7 @@ public class RotateObject2 : MonoBehaviour
     public float turnSpeed = 20f;
 
     // Use this for initialization
-    void Update()
+    void Update() // 
     {
         // Rotate the object around its local X axis at 1 degree per second
         if (Input.GetKey(KeyCode.D))
